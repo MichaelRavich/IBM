@@ -20,10 +20,12 @@ int divide(int dividend, int divisor) {
 	if (sign == -1) result = -result; // update appropriate sign for result
 	return result;
 } 
+
 bool checkForWin(int N1, int N2, int N3, int N4)
 {
 	return (N1 == 5 || N2 == 5 || N3 == 5 || N4 == 5); // check if at least one of the digits is 5 
 }
+
 int lengthOfLongestSubstring(char str[])
 {
 	int n = strlen(str); // save length of str
